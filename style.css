@@ -9,14 +9,16 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh; /* fill viewport height */
-  background: #a78080;
+  background: #262a2f;
   padding: 20px; /* small page padding for small screens */
 }
 
 .container {
   /* give the container a sensible width so % widths inside behave */
-  width: 480px; /* choose a width you like */
-  max-width: 95%; /* responsive fallback on small screens */
+  width: 400px; /* choose a width you like */
+  /* max-width: 95%; responsive fallback on small screens */
+  padding: 25px 35px;
+  position: absolute;
   background: #fff;
   padding: 24px; /* smaller padding so contents appear near left edge */
   border-radius: 10px;
